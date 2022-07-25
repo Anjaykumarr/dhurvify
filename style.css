@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@500&family=Mochiy+Pop+One&display=swap');
+
+
+
+:root {
+  --main-bg-color: #0000ff;
+}
+
+body {
+  background-color: rgb(132, 0, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  background-color: var(--main-bg-color);
+  height: 80px;
+}
+nav ul li {
+  padding: 0 12px;
+  padding: 26px 26px 0px 18px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+}
+
+.logo img {
+  height: 80px;
+  padding: 0 5px 21px;
+}
+
+.logoname {
+  font-weight: bolder;
+  font-size: 21px;
+  padding: 24px 59px 0px 0px;
+}
+
+.songlist{
+  font-family: "Edu SA Beginner", cursive; 
+}
+
+.container {
+  min-height: 74.8vh;
+  background-color: aqua;
+  color: white;
+  display: flex;
+  margin: 23px;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url("http://source.unsplash.com/1920x1920/?music/dark");
+}
+
+.songItem {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-family: "Edu SA Beginner", cursive; 
+}
+.songItem img {
+  height: 100px;
+  border-radius: 13px;
+}
+
+.name {
+  padding: 10px;
+}
+
+.songlistplay {
+  padding: 10px;
+}
+
+.time {
+  padding: 10px;
+}
+
+.time i {
+  cursor: pointer;
+}
+
+.bottom {
+  height: 100px;
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.playing {
+  position: absolute;
+  left: 10vw;
+}
+
+.playing img {
+  width: 11vw;
+  height: 11vh;
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+footer {
+  position: sticky;
+  bottom: 0px;
+}
+
+.icons {
+  padding: 10px;
+}
+.icons i {
+  cursor: pointer;
+  padding: 10px;
+}
+
+#MyProgressBar {
+  width: 300px;
+  cursor: pointer;
+}
